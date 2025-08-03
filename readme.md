@@ -1,98 +1,69 @@
-# Overlord Zorns Personal Mod Template
+# Palladium
 
-Here I maintain a personal, basic mod framework.
+A concrete repack mod that contains the "essentials" for any OPFOR unit. Works with any unit or community!
 
-Feel free to create a PR if you see something missing!
+## Features
 
-## This Arma3 Mod Template comes with:
+### Equipment & Weapons
+- **Fixed backpacks** - Improved backpack functionality
+- **Prone launchers** - Enhanced launcher positioning
+- **RPO launchers** - Additional rocket launcher options
+- **82mm Mortar Warhead for RPG-7** - Extended ammunition types
+- **Breaching charges** - Tactical entry equipment
 
-- MAIN ADDON
-  - Has a set of my personal macros. Some are somewhat duplicate from cba, but i already got used to them. Feel free to use them or not.
+### Gameplay Enhancements
+- **"Pockets"** - Additional inventory space
+- **Moaning for downed players** - Enhanced audio feedback for wounded units
+- **Advanced towing mechanisms** - Improved vehicle recovery systems
+- **Artillery illumination** - Enhanced battlefield lighting options
+- **Simple Suppress** - Suppression mechanics
+- **Grenade in hatch** - Vehicle vulnerability improvements
+- **Bugle and whistle** - Command and communication tools
 
-- TEMPLATE ADDON Folder
-  - Basic CfgFunctions Setup
-    - example `fn_example.sqf` function
-  - Basic CBA XEH Setup
-    - example `XEH_preInit.sqf` with CBA Addon Option Template
+### Equipment & Protection
+- **Blahjah backpacks** - High-quality backpack additions
+- **"Staliniunm" hats** - Armored headgear with protection values
 
-- INCLUDE Folder
-  - CBA Macros and Stuff
-  - ACE3 Macros and Stuff
-  - some A3 GUI Stuff
+### Technical Fixes
+- **TFAR compatibility** - Radio functionality for multiple backpack types
+- **CUP interiors** - Enhanced vehicle interiors
+- **ACE "triple stack" wound fix** - Improved injury system for unarmored players and enemies
+- **RHS T-14 and T-15 APS fix** - Active Protection Systems can now be properly disabled/destroyed
 
-- HEMTT
-  - hemtt's project.toml
-  - hemtt's launch.toml
-    - simple Editor Test Mission `test.vr` to be used with `hemtt launch Test`
+## Installation
 
-- GITHUB
-  - Github Action on release
-    - create and rename .zip files for the Github Release Page
-    - Update Existing Steam Workshop Files directly from the Github Release
-      - Requires Steam Account that Owns Arma3. It is strongly advised to aquire a secondary account if you wish to use the release->Steamworkshop feature
-    - Planned: Bump Patch Version on PR Merge
-    - Planned: Bump Minor Version on Release, set patch to 0
-  - SQF Validator Python Script
+1. Subscribe to the mod on Steam Workshop: [Workshop Link]
+2. Ensure all required dependencies are installed (see Requirements below)
+3. Load the mod through your Arma 3 launcher
 
+## Requirements
 
-- Automated Version Bumping
-  - MINOR on `hemtt release` (WIP: Only bumps when using on your local mashine through hemtt, not when releasing through github action.)
-  - PATCH on github PR (PLANNED, not done yet - need to learn github action stuff first)
-  - BUILD on `hemtt built`, including `hemtt launch`
+- Arma 3
+- ACE3
+- TFAR (for radio features)
+- CUP (for interior features) 
+- RHS (for vehicle fixes)
+- **Note:** Mod dependencies are currently WORK IN PROGRESS
 
+## Important Notes
 
+- **RHS Normalization Mod**: A companion mod will be released within 1 week that makes RHS use vanilla armor values and removes custom penetration logic scripts
+- Originally created for 3SA but designed to work with any unit or community
+- All features are balanced for OPFOR gameplay but enhance the overall tactical experience
 
-## HOW TO SETUP
+## Support & Contact
 
-### Once Per Mod
+If your addon was found in this repository and you want it:
+- Removed
+- Updated  
+- Changed
 
-#### Use VSCode Find and Replace across the whole repository
-1. replace PLACEHOLDER: `~MAINPREFIX~` with desired MAINPREFIX, example: `x`
-2. replace PLACEHOLDER: `~PREFIX~` with desired PREFIX, example `ABE`
+Please open an issue on GitHub or contact me on Discord: [Your Discord Info]
 
-#### Update the following files according to your needs
-1. `mod.cpp`
-2. `.hemtt\project.toml`
+## Credits
 
-#### Update the Main Addon
-1. Check `$PBOPREFIX$`
-2. Update `addons\main\script_mod.hpp`
-3. Update `addons\main\script_version.hpp` when needed
-4. Update `addons\main\config.cpp`
-5. Update `addons\main\stringtable.xml`
+This mod is a repack containing various community addons. Full credit goes to the original addon creators. If you are an original creator and want attribution updated or content removed, please reach out.
 
-### Per New Addon
+## License
 
-#### Choose a suitable name for the addon.
-Examples are `common` or `my_addon`
-
-> [!IMPORTANT]
-> Ensure only lowercase is used in addon name! Especially important for the foldername.
-> Building with hemtt through github will cause issues if uppercase is used!
-
-#### Use VSCode Find and Replace
-1. replace PLACEHOLDER: `~TEMPLATE_ADDON~` with desired Addon Name.
-
-#### Update the following files according to your needs
-##### Template Addon
-1. Rename Folder accordingly, like `common` or `my_addon`. only lowercase!
-2. Check `$PBOPREFIX$` should say something like `x\abe\addons\my_addon`
-3. Check and Update `script_component.hpp`
-   1. check and update `COMPONENT` and `COMPONENT_BEAUTIFIED` if needed
-   2. check both `#includes`
-4. Update `addons\~TEMPLATE_ADDON~\config.cpp`
-   - update `authors[] = {};`
-   - update other entries where needed.
-
-5. Start building your mod
-   1. Dont forget to remove fn_example.
-
-## How to install Hemtt
-`winget install BrettMayson.HEMTT` to install.
-
-### auto update hemtt
-in `tools` you can find a `update_hemtt.bat` which i use in my autostart folder to automatically update hemtt.
-You can find your Win Users Autostart folder via  `WIN+R` -> `shell:startup`
-
-### Install Winget
-https://learn.microsoft.com/en-us/windows/package-manager/winget/
+Due this mode having to abide with APL-SA, GNU GPLv3, and other licenses, please refer to the original addons for their specific licenses. This mod is distributed under the same terms as the original addons.
