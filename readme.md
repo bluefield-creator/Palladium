@@ -62,10 +62,36 @@ If your addon was found in this repository and you want it:
 
 Please open an issue on GitHub or contact me on Discord: https://discord.gg/Jwr7jdx
 
-## Credits
 
-This mod is a repack containing various community addons. Full credit goes to the original addon creators. If you are an original creator and want attribution updated or content removed, please reach out.
+## 📄 LICENSING
 
-## License
+This repack includes approximately 50 Arma 3 mods, each maintained under its original open-source license. We have not merged or altered them in a way that would conflict with license compatibility.
 
-Due this mode having to abide with APL-SA, GNU GPLv3, and other licenses, please refer to the original addons for their specific licenses. This mod is distributed under the same terms as the original addons.
+### 📦 License Breakdown
+
+The repack includes mods under the following licenses:
+
+- 🟥 **Arma Public License Share-Alike (APL‑SA)**  
+  Mods in this group remain non-commercial and Arma-only, with source or configs included where required.
+
+- 🟦 **GNU General Public License v2.0 or v3.0 (GPL)**  
+  These mods include full source code or links to it, and remain under GPL terms. No relicensing has occurred.
+
+- 🟩 **MIT License**  
+  These mods are permissively licensed with attribution. They have been bundled unmodified.
+
+- ⚠️ **Arma Public License – No Derivatives (APL‑ND)**  
+  Mods under APL‑ND are not physically included in the repack. They are treated as external dependencies and must be downloaded separately, per the authors’ instructions.
+
+### 🛠️ Custom Content
+
+Any original content created specifically for this repack (e.g. configs, scripting glue, metadata) is licensed under the **MIT License**, to ensure maximum compatibility with the included mods.
+
+---
+
+### 📬 Author Takedown Policy
+
+If you are the author of any included mod and would like your work to be **removed**, **updated**, or **relinked**, please [open an issue on our GitHub](https://github.com/your-repo/issues) or contact us via [your preferred contact method].
+
+We will respond as quickly as possible to ensure your rights and preferences are respected.
+
