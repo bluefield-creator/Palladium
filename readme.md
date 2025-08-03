@@ -1,3 +1,5 @@
+![Palladium Logo](/img/1024.png)
+
 # Palladium
 
 A concrete repack mod that contains the "essentials" for any OPFOR unit. Works with any unit or community!
@@ -32,7 +34,7 @@ A concrete repack mod that contains the "essentials" for any OPFOR unit. Works w
 
 ## Installation
 
-1. Subscribe to the mod on Steam Workshop: [Workshop Link]
+1. Subscribe to the mod on Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3541301376
 2. Ensure all required dependencies are installed (see Requirements below)
 3. Load the mod through your Arma 3 launcher
 
@@ -58,7 +60,7 @@ If your addon was found in this repository and you want it:
 - Updated  
 - Changed
 
-Please open an issue on GitHub or contact me on Discord: [Your Discord Info]
+Please open an issue on GitHub or contact me on Discord: https://discord.gg/Jwr7jdx
 
 ## Credits
 
