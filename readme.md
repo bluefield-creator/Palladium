@@ -10,27 +10,27 @@ A concrete repack mod that contains the "essentials" for any OPFOR unit. Works w
 - **Fixed backpacks** - Improved backpack functionality
 - **Prone launchers** - Enhanced launcher positioning
 - **RPO launchers** - Additional rocket launcher options
-- **82mm Mortar Warhead for RPG-7** - Extended ammunition types
+- **82mm Mortar Warhead for RPG-7** - Some fun with the RPG-7
 - **Breaching charges** - Tactical entry equipment
 
 ### Gameplay Enhancements
 - **"Pockets"** - Additional inventory space
-- **Moaning for downed players** - Enhanced audio feedback for wounded units
-- **Advanced towing mechanisms** - Improved vehicle recovery systems
-- **Artillery illumination** - Enhanced battlefield lighting options
+- **Moaning for downed players** - Downed units now have a moaning sound effect
+- **Advanced towing mechanisms** - Adds tow ropes to all vehicles.
+- **Artillery illumination** - Adds illumination rounds for artillery
 - **Simple Suppress** - Suppression mechanics
-- **Grenade in hatch** - Vehicle vulnerability improvements
+- **Grenade in hatch** - Throw grenades into vehicle hatches
 - **Bugle and whistle** - Command and communication tools
 
 ### Equipment & Protection
-- **Blahjah backpacks** - High-quality backpack additions
+- **Blahjah backpacks** - No comment.
 - **"Staliniunm" hats** - Armored headgear with protection values
 
 ### Technical Fixes
 - **TFAR compatibility** - Radio functionality for multiple backpack types
-- **CUP interiors** - Enhanced vehicle interiors
-- **ACE "triple stack" wound fix** - Improved injury system for unarmored players and enemies
-- **RHS T-14 and T-15 APS fix** - Active Protection Systems can now be properly disabled/destroyed
+- **CUP interiors** - More interiors for buildings.
+- **ACE "triple stack" wound fix** - Fixes injuries stacking in ACE3
+- **RHS T-14 and T-15 APS fix** - These vehicles can now be destroyed.
 
 ## Installation
 
