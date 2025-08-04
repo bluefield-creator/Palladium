@@ -91,7 +91,7 @@ Any original content created specifically for this repack (e.g. configs, scripti
 
 ### 📬 Author Takedown Policy
 
-If you are the author of any included mod and would like your work to be **removed**, **updated**, or **relinked**, please [open an issue on our GitHub](https://github.com/your-repo/issues) or contact us via [your preferred contact method].
+If you are the author of any included mod and would like your work to be **removed**, **updated**, or **relinked**, please [open an issue on our GitHub](https://github.com/your-repo/issues) or contact us via Discord.
 
 We will respond as quickly as possible to ensure your rights and preferences are respected.
 
