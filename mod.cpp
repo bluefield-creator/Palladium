@@ -17,7 +17,7 @@ description     = "description";                                                
 action          = "https://discord.gg/Jwr7jdx";                                                                                                // Website URL, that can accessed from the expansions menu 
 actionName      = "Discord";                                                                                                                        // label of button/tooltip in extension menu
 
-overviewPicture = "1024.paa";
+overviewPicture = "img\1024.paa";
 overviewText = "overviewText";
 
 overviewFootnote = "overviewFootnote";
@@ -31,3 +31,5 @@ dlcColor[] =
     0.0,
     1
 };
+
+

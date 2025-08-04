@@ -20,6 +20,7 @@ include = [
     "logo_co.paa",
     "*.bikey",
     "*.pbo",
+    "*.jpg"
 ]
 exclude = [
     "*.psd",        # By default this list is empty
